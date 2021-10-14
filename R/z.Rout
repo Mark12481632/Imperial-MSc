@@ -1,0 +1,3 @@
+dyld: Library not loaded: @rpath/libreadline.6.2.dylib
+  Referenced from: /Users/markroberts/opt/anaconda3/lib/R/lib/libR.dylib
+  Reason: image not found
