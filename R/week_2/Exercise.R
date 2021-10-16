@@ -33,7 +33,7 @@ plot(dog)
 apply_fuzziness <- function(img, fuzzy_factor=0.1) {
   # Don't need to convert to a matrix:
   std_norm_vec = rnorm(dim(img)[1] * dim(img)[2]) * fuzzy_factor
-  <- img_fuzzy <- img + std_norm_vec
+  img_fuzzy <- img + std_norm_vec
   return(img_fuzzy)
 }
 
